@@ -6,7 +6,6 @@ Take it as it is, a guide but not a dogma. We are all different kind of learners
 
 ## Basic Technology used in web development
 
-#### Programming Languages & Document formats
 * **JavaScript**. This programming language was conceived to run on the web browser and make dynamic webpages.
 There are great resources for learning this programming language for free such as [freecodecamp](https://www.youtube.com/watch?v=PkZNo7MFNFg&list=PLWKjhJtqVAbleDe3_ZA8h3AO2rXar-q2V) and if you want to dig deeper I recommend [this book](http://www.r-5.org/files/books/computers/languages/escss/fp/Nicholas_C_Zakas-The_Principles_of_JavaScript-EN.pdf). We should also mention [this web channel](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A) with some interesting hands-on content.
 
@@ -24,14 +23,14 @@ There are great resources for learning this programming language for free such a
 This is the part that we interact with through the browser. It is the so-called graphic interface of our application, everything that is displayed in your web browser is frontend.
 The frontend communicates with the other parts of the application through an [API](https://www.youtube.com/watch?v=GZvSYJDk-us&t=761s).
 
-Currently, React or Vue.js are among the most popular web frameworks for frontend development. I found particularly useful the [freecodecamp](https://www.youtube.com/watch?v=DLX62G4lc44) guides and projects, the [old Traversy media content](https://www.youtube.com/watch?v=sBws8MSXN7A). If you want to dig deeper you may want to take a look at [this video](https://www.youtube.com/watch?v=Q9Qx2Xef0do).
+Currently, **React** or **Vue.js** are among the most popular web frameworks for frontend development. I found particularly useful the [freecodecamp](https://www.youtube.com/watch?v=DLX62G4lc44) guides and projects, the [old Traversy media content](https://www.youtube.com/watch?v=sBws8MSXN7A). If you want to dig deeper you may want to take a look at [this video](https://www.youtube.com/watch?v=Q9Qx2Xef0do).
 
-Two fundamental concepts for this two frameworks are the modularization/components and the state management (which actually is a software pattern) **Redux** for React, find more [here](https://www.youtube.com/watch?v=93p3LxR9xfM). At this point, you should have been building some small applications so you will find different kinds of information or tutorials for state management, again feel free to explore.
+Two fundamental concepts for this two frameworks are the modularization/components and the **state management** (which actually is a software pattern) **Redux** for React, find more [here](https://www.youtube.com/watch?v=93p3LxR9xfM). At this point, you should have been building some small applications so you will find different kinds of information or tutorials for state management, again feel free to explore.
 
 ### Backend
 This is the part that is used to operate with data. Normally it exposes an [API](https://www.youtube.com/watch?v=GZvSYJDk-us&t=761s) that is used by the frontend (and possibly by other services). It is highly recommended to understand the [REST protocol](https://en.wikipedia.org/wiki/Representational_state_transfer) which is implemented by the most basic backend services.
 
-Although there are loads of possible choices for backend applications here we will focus on Node.js which is a JavaScript framework for backend applications.
+Although there are loads of possible choices for backend applications here we will focus on **Node.js** which is a JavaScript framework for backend applications.
 
 We do not have a particular course or resource to learn node from start to finish because we learnt it by building small applications. If we had to choose some resources we would go back to [freecodecamp](https://www.freecodecamp.org/news/tag/nodejs/) and also its [youtube channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) for guides for total beginners. We also found that [The coding train](https://www.youtube.com/user/shiffman) has some great content for learning, building or just have fun, although is not a good place if you are looking for a structured tutorial.
 
@@ -40,9 +39,9 @@ Node.js libraries **KOA** or **Express** to develop Rest APIs. Notice that Koa i
 
 As mentioned previously, the backend operates with data therefore we need to integrate databases into this part of the application. The two most common paradigms or models of databases are relational and non-relational.
 
-For non-relational databases, MongoDB is widely used and for relational databases I particularly like PostgreSQL. For relational databases, we often use an ORM, for PostgreSQL I recommend [Sequelize](https://sequelize.org/master/).
+For **non-relational** databases, **MongoDB** is widely used and for **relational** databases I particularly like **PostgreSQL**. For relational databases, we often use an **ORM**, for PostgreSQL I recommend [Sequelize](https://sequelize.org/master/).
 
-We also suggest this course about node.js in [coursera](https://www.coursera.org/programs/addf2bd7-cb7e-49d2-83d7-4ff7e1efd883/browse?productId=pn1erK4cEeaP-Q4_2QdcFg&productType=course&query=node.js&showMiniModal=true) that walk through basic authentication and CORS in node.js.
+We also suggest this course about node.js in [coursera](https://www.coursera.org/programs/addf2bd7-cb7e-49d2-83d7-4ff7e1efd883/browse?productId=pn1erK4cEeaP-Q4_2QdcFg&productType=course&query=node.js&showMiniModal=true) that walk through basic authentication and **CORS** in node.js.
 
 Although we have not post many resources for this last part the idea is that if you have gone through the basics you will find loads of resources on those matters and probably you will have your own source of resources at this point. In any case, we wanted to emphasis those technologies for data management and rapid API development.
 

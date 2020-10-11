@@ -4,5 +4,7 @@ Different technologies and skillset development for newcomers and no so newcomer
 
 #### Table of Contents
 
+* [Programming Languages](./programming-languages)
+  * [javaScript](./programming-languages/javaScript.md)
 * [Web Development](./web-development)
   * [Web development Roadmap](./web-development/webdev-roadmap.md)

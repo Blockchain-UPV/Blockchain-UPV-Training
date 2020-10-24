@@ -10,3 +10,5 @@ Different technologies and skillset development for newcomers and no so newcomer
   * [Web development Roadmap](./web-development/webdev-roadmap.md)
 * [Git](./git)
   * [Git set-up and basic concepts](./git/git.md)
+* [Linux](./linux)
+  * [Linux OS](./linux/linux.md)
